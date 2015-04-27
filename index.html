@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" ng-app="variableDropdown">
+<head>
+    <meta charset="UTF-8">
+    <title>Angular variable dropdown directive</title>
+    <link rel="stylesheet" href="app.css"/>
+    <link rel="stylesheet" href="ev-dropdown/ev-dropdown.css"/>
+</head>
+<body>
+
+    <h1>This is demo page</h1>
+    <h2>Here you can find example of using dropdown with variable template</h2>
+    <h3 class="notice notice-good">Scopes work as expected!!! You can use whatever you want inside directive - it will be in the same scope like without directive</h3>
+
+    <hr/>
+
+    <div class="inline">
+        <ev-dropdown>
+            <ev-dropdown-header>
+                <button>This is a toggle button</button>
+            </ev-dropdown-header>
+            <ev-dropdown-body>
+                <p>This is arbitrary content of the dropdown</p>
+                <img height="400px" src="https://scontent-ams.cdninstagram.com/hphotos-xfa1/t51.2885-15/e15/11189792_670893053039068_1361063616_n.jpg" alt="picture"/>
+            </ev-dropdown-body>
+        </ev-dropdown>
+    </div>
+    <div class="inline">
+        <ev-dropdown>
+            <ev-dropdown-header>
+                <h3>... or arbitrary heading</h3>
+            </ev-dropdown-header>
+            <ev-dropdown-body>
+                <table>
+                    <tr>
+                        <th>Table</th>
+                        <th>Image</th>
+                    </tr>
+                    <tr>
+                        <td>Arbitrary</td>
+                        <td>
+                            <img height="200px" src="https://scontent-ams.cdninstagram.com/hphotos-xaf1/t51.2885-15/e15/11084983_1574413232809376_269066502_n.jpg" alt="picture"/>
+                        </td>
+                    </tr>
+                </table>
+            </ev-dropdown-body>
+        </ev-dropdown>
+    </div>
+
+
+
+
+<script src="jquery.js"></script>
+<script src="angular.js"></script>
+<script src="app.js"></script>
+<script src="ev-dropdown/ev-dropdown.js"></script>
+<script src="click-anywhere-but-here.js"></script>
+</body>
+</html>
