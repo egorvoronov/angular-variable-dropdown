@@ -4,6 +4,7 @@
 
 *.iml
 .DS_Store
+npm-debug.log
 
 ## Directory-based project format:
 .idea/**/*
