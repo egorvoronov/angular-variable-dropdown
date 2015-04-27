@@ -1,5 +1,5 @@
 {
-  "name": "ev-dropdown",
+  "name": "ev-dropdown-without-close-button",
   "version": "1.0.1",
   "description": "This is angular dropdown for arbitrary content inside",
   "main": "index.js",
