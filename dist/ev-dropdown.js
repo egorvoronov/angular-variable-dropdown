@@ -49,7 +49,10 @@
             restrict: 'E',
             transclude: true,
             replace: true,
-            templateUrl: 'ev-dropdown/ev-dropdown.html',
+            template:
+            '<div class="ev-dropdown-body" render-if="dropdownIsOpened">' +
+                '<div class="ev-dropdown-body-content"></div>' +
+            '</div>',
             link: function(scope, element, attrs, ctrl, transclude) {
 
                 //create elementForDom (this element will be added or removed from DOM) - copy of element
