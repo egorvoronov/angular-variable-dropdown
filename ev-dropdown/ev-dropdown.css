@@ -8,11 +8,16 @@
 
 .ev-dropdown-body {
     background-color: #ecf0f1;
+    width: 100%;
     position: absolute;
     top: 100%;
     left: 0;
     z-index: 100;
     border-radius: 5px 5px 0 5px;
+}
+
+.ev-dropdown-body-content {
+    width: 100%;
 }
 
 .ev-button {
