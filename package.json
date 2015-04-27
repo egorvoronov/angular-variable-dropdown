@@ -1,0 +1,29 @@
+{
+  "name": "ev-dropdown",
+  "version": "1.0.0",
+  "description": "This is dropdown for arbitrary content",
+  "main": "ev-dropdown.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/egorvoronov/ev-dropdown.git"
+  },
+  "keywords": [
+    "angular",
+    "dropdown",
+    "variable",
+    "arbitrary",
+    "customm"
+  ],
+  "author": "Egor Voronov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/egorvoronov/ev-dropdown/issues"
+  },
+  "dependencies": {
+
+  },
+  "homepage": "https://github.com/egorvoronov/ev-dropdown"
+}
